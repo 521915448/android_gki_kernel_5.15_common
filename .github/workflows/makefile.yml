@@ -16,7 +16,7 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/hfdem/android_gki_kernel_5.15_common
-          kernel-dir: msm-5.15
+          kernel-dir: 5.15.180-Hoshino-android13-8-g648218045539
           kernel-branch: android13-5.15-2025-05
           config: gki_defconfig
           arch: arm64
